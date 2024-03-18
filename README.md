@@ -5,7 +5,9 @@ Activate all Azure Entra ID PIM roles assigned to the authenticated user.
 
 ### EXAMPLE 1 - Manual execution:
   `Check-Modules`
+  
   `$session = Check-AzureSession`
+  
   `Activate-PimRoles -session $session -reason "Some reason here."`
 
 ### EXAMPLE 2 - Execute from terminal:
